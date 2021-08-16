@@ -1,0 +1,18 @@
+
+-- EmployeeTable
+
+CREATE TABLE [dbo].[Employees](
+	[EmployeeID] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[EmployeeName] [varchar](1000) NOT NULL,
+	[DepartmentID] [int] NULL,
+	[MailID] [varchar](1000) NULL,
+	[DOJ] [date] NULL
+)
+
+
+-- DepartmentTable
+
+CREATE TABLE [dbo].[Departments](
+	[DepartmentID] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[DepartmentName] [varchar](1000) NULL
+)

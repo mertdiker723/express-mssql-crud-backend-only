@@ -1,0 +1,12 @@
+# English
+1-) First, create the tables from the sqlScript file in your database.
+2-) Download node_modules by writing npm i or yarn install on Windows PowerShell.
+3-) Start the server by writing yarn start.
+4-) You can easily perform CRUD operations using an application like PostMan.
+
+
+# Turkish
+1-) İlk önce sqlScript dosyasındanki tabloları database'inizde oluşturunuz.
+2-) Npm i yada yarn install diyecerek node_modules kısmını indirin.
+3-) Yarn start diyerek server'ı başlatın.
+4-) PostMan benzeri bi uygulama kullanarak CRUD işlemlerini rahatça yapabilirsiniz.
